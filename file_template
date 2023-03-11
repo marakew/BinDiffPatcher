@@ -1,0 +1,24 @@
+
+content
+
+# this file will patch, mandatory "file: " " and "
+string between this key words is full_file_name
+file: path\file and path_new\file
+
+content
+
+# offset(hex) origbyte(hex) newbyte(hex)
+# 
+00000001: 01 02
+00000003: 01 02
+00010001: 01 02
+
+content
+
+file: path1\file2 and path_new\file2
+
+00040001: 11 E1
+00050003: 21 FA
+00050001: 41 AD
+
+content
